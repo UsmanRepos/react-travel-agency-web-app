@@ -1,0 +1,176 @@
+.Vehicle_screen_container {
+    background: linear-gradient(106.37deg,
+            #ffe1bc 29.63%,
+            #ffefd1 51.55%,
+            #f3c6f1 90.85%);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.Vehicle_Screen_AppGlass {
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 1rem;
+    gap: 10
+}
+
+.Vehicle_screen {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 10px;
+    margin-bottom: 3%;
+}
+
+
+.Vehicle_screen_header {
+    display: flex;
+    flex: 1.2;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 4.5px;
+    justify-content: space-between;
+}
+
+.Vehicle_screen_body {
+    display: flex;
+    flex: 9;
+}
+
+.Vehicle_screen_body_left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    background-color: var(--glass);
+    box-shadow: 3px 3px 5px #888888;
+    height: 100%;
+    margin-bottom: -120%;
+}
+
+.Vehicle_screen_body_right {
+    display: flex;
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-shadow: 3px 3px 5px #888888;
+    background-color: var(--glass);
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    margin-bottom: -120%;
+}
+
+fieldset {
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px 20px;
+    letter-spacing: .05rem;
+    margin-bottom: 15px;
+    border: 2px solid #888888;
+}
+
+legend {
+    font-size: 16px;
+    letter-spacing: .1rem;
+}
+
+.Vehicle_screen_field {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 10px;
+    font-size: 15px;
+    /* border: none; */
+    outline: none;
+    border-radius: 8px;
+    border-top: 1px solid #888888;
+}
+
+.Vehicle_screen_button {
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background: white;
+    cursor: pointer;
+    color: #888888;
+    border: 1px solid #888888;
+}
+
+.add_button {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    align-self: flex-end;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px whitesmoke;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: wheat;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: khaki;
+}
+
+/* ----------------(Media Query)----------------*/
+@media screen and (max-width: 1024px) {
+    .form {
+        flex-direction: column;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .Vehicle_screen_body_left {
+        margin-left: 0px;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+        height: 30%;
+    }
+
+    .Vehicle_screen_body_right {
+        margin-right: 0px;
+        padding: 15px 10px;
+        height: 70%;
+
+    }
+}

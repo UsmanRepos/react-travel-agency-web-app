@@ -1,0 +1,12 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.main_dashboard_body{
+    display: flex;
+    flex-direction: column;
+}
+
+

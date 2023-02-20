@@ -1,0 +1,56 @@
+.top_tour_table_ {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 2%;
+  background-color: white;
+  box-shadow: '0px 13px 20px 0px #80808029';
+  overflow-y:scroll;
+  height: 53%;
+}
+
+/* table {
+  border-left: 1px solid wheat;
+  border-right: 1px solid wheat;
+} */
+
+.top_tour_table_cell {
+  border-top: 1px solid #888888;
+  text-align: center;
+  font-size: 14px;
+}
+
+.top_tour_table_header_cell {
+  color: white;
+  background: #888888;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.top_tour_table_header,
+.top_tour_table_row {
+  height: 40px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px whitesmoke; 
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: wheat; 
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: khaki; 
+}

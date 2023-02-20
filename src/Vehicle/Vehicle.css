@@ -1,0 +1,264 @@
+.vehicle_screen_detail {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background:  linear-gradient(
+        106.37deg,  
+        #ffe1bc 29.63%,
+        #ffefd1 51.55%,
+        #f3c6f1 90.85%
+        );
+        height: 100vh;
+}
+
+.vehicle_Screen_detail_header {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.vehicle_Screen_header_left {
+    display: flex;
+    flex-direction: row;
+    flex: 8;
+    gap:10px;
+    align-items: center;
+}
+.vehicle_Screen_header_right {
+    display: flex;
+    flex: 2;
+    padding-right: 1%;
+    justify-content: flex-end;
+    
+}
+
+.vehicle_detail_body {
+    display: flex;
+    flex: 9;
+    justify-content: center;
+}
+
+.vehicle_screen_detail_fields {
+    margin-left: 2%;
+    width: 55%;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    padding: 0px 7px;
+    border-radius: 8px;
+    border: 2px solid #888888;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 261, 40, 0.42);
+}
+
+.button:hover {
+    background: white;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.vehicle_screen_button {
+    width: 6rem;
+    height: 37px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+/* .vehicle_detail {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.vehicle_detail_header {
+    display: flex;
+    flex: 1.5;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.vehicle_detail_body {
+    display: flex;
+    flex: 8.5;
+    align-items: center;
+    justify-content: center;
+}
+
+.fields {
+    margin-left: 25%;
+    width: 35%;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid #f1a9a0;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+.SearchButton {
+    display: flex;
+    padding-right: 20px;
+    justify-content: flex-end;
+
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 261, 40, 0.42);
+}
+
+.button:hover {
+
+    background: white;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.i-button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.s-button {
+    margin-right: 22%;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-bottom: 1%;
+
+} */
+
+
+
+/* vehicle */
+
+
+/* .vehicle {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    /* z-index: 1; */
+    /* align-items: center;
+    justify-content: center;
+
+
+} */
+
+/* .v-form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 10px;
+    height: 60%;
+}
+
+.vehicle_header {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.vehicle_body {
+    display: flex;
+    flex: 8.5;
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.v-fieldset {
+    height: fit-content;
+    border-radius: 10px;
+    padding: 15px;
+    letter-spacing: .05rem;
+    margin-bottom: 15px;
+}
+
+.v-legend {
+    font-size: 100%;
+    letter-spacing: .1rem;
+}
+
+.v-fields {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid #f1a9a0;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 261, 40, 0.42);
+}
+
+.v-button {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.button:hover {
+
+    background: white;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+.v-add_button {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    align-self: flex-end;
+    padding: 15px;
+}  */
